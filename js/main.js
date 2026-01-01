@@ -15,6 +15,7 @@
     initHeaderScroll();
     initDropdownMenus();
     initAnimations();
+    initComingSoonPopups();
   });
 
   // ========================================
@@ -186,9 +187,37 @@
   }
 
   // ========================================
+  // Coming Soon Popups for Booking/Call
+  // ========================================
+  function initComingSoonPopups() {
+    // Handle all booking-related links
+    document.addEventListener('click', function(e) {
+      const link = e.target.closest('a');
+      if (!link) return;
+
+      const href = link.getAttribute('href') || '';
+
+      // Check for booking links
+      if (href.includes('#booking') || href.includes('Book') ||
+          link.textContent.includes('Book') || link.textContent.includes('Programează')) {
+        e.preventDefault();
+        alert('Această funcție va fi adăugată în curând! / This feature will be added soon!');
+        return;
+      }
+
+      // Check for call/tel links
+      if (href.startsWith('tel:') || link.textContent.includes('Call')) {
+        e.preventDefault();
+        alert('Această funcție va fi adăugată în curând! / This feature will be added soon!');
+        return;
+      }
+    });
+  }
+
+  // ========================================
   // Booking Integration Helper
   // ========================================
-  window.LuxeNails = {
+  window.AdellBeautyArt = {
     // Open booking in new window
     openBooking: function(url) {
       if (url) {
