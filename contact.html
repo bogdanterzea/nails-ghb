@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact LuxeNails Beauty Studio - Book your appointment, find our location, and get in touch with our team in New York City.">
+  <title>Contact Us - LuxeNails Beauty Studio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="LuxeNails Beauty Studio Home">
+        <svg width="200" height="50" viewBox="0 0 280 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="35" fill="#F5E1DA" opacity="0.3"/>
+          <ellipse cx="40" cy="40" rx="10" ry="22" fill="#D4AF37"/>
+          <ellipse cx="40" cy="40" rx="8" ry="20" fill="url(#shine-gradient)"/>
+          <text x="85" y="48" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="700" fill="#2F2F2F">LuxeNails</text>
+          <text x="85" y="62" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#6C757D" letter-spacing="2">BEAUTY STUDIO</text>
+          <defs>
+            <linearGradient id="shine-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#E5C45E" />
+              <stop offset="100%" style="stop-color:#D4AF37" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="#" class="nav__link">Services</a>
+            <ul class="nav__dropdown">
+              <li><a href="services/manicure.html" class="nav__link">Manicure</a></li>
+              <li><a href="services/pedicure.html" class="nav__link">Pedicure</a></li>
+              <li><a href="services/gel-acrylic.html" class="nav__link">Gel & Acrylic</a></li>
+              <li><a href="services/nail-art.html" class="nav__link">Nail Art</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#booking" class="btn btn--primary btn--small btn--header">Book Now</a>
+
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-header__title">Contact Us</h1>
+        <nav class="page-header__breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Contact</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Info Card -->
+          <div class="contact-info">
+            <h2 class="mb-2">Get in Touch</h2>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#128205;</div>
+              <div>
+                <div class="contact-info__label">Address</div>
+                <div class="contact-info__value">
+                  123 Elegant Avenue, Suite 200<br>
+                  New York, NY 10001
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#128222;</div>
+              <div>
+                <div class="contact-info__label">Phone</div>
+                <a href="tel:+12125555893" class="contact-info__value">(212) 555-LUXE (5893)</a>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#9993;</div>
+              <div>
+                <div class="contact-info__label">Email</div>
+                <a href="mailto:hello@luxenails.studio" class="contact-info__value">hello@luxenails.studio</a>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#128247;</div>
+              <div>
+                <div class="contact-info__label">Social Media</div>
+                <div class="contact-info__value">
+                  <a href="https://instagram.com/LuxeNailsStudio" target="_blank" rel="noopener">@LuxeNailsStudio</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hours Card -->
+          <div class="contact-info">
+            <h2 class="mb-2">Hours of Operation</h2>
+
+            <table class="hours-table">
+              <tr>
+                <td>Monday</td>
+                <td>10:00 AM - 7:00 PM</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>10:00 AM - 7:00 PM</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>10:00 AM - 7:00 PM</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>10:00 AM - 8:00 PM</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>9:00 AM - 8:00 PM</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>9:00 AM - 6:00 PM</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>11:00 AM - 5:00 PM</td>
+              </tr>
+            </table>
+
+            <p class="mt-2 text-muted" style="font-size: 0.875rem;">
+              *Extended hours available for bridal parties and special events by appointment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section section--alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-header__subtitle">Book Now</span>
+          <h2 class="section-header__title">Schedule Your Appointment</h2>
+          <p class="section-header__description">Choose your preferred booking method below.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature">
+            <div class="feature__icon">&#128187;</div>
+            <h3 class="feature__title">Online Booking</h3>
+            <p class="feature__description">Book 24/7 through our online booking system. Choose your service, technician, and preferred time slot.</p>
+            <a href="#booking-widget" class="btn btn--primary btn--small mt-1">Book Online</a>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">&#128222;</div>
+            <h3 class="feature__title">Call Us</h3>
+            <p class="feature__description">Speak with our team to book your appointment or ask any questions about our services.</p>
+            <a href="tel:+12125555893" class="btn btn--secondary btn--small mt-1">Call Now</a>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">&#128694;</div>
+            <h3 class="feature__title">Walk-Ins Welcome</h3>
+            <p class="feature__description">No appointment? No problem! We accept walk-ins based on availability. Call ahead to check.</p>
+          </div>
+        </div>
+
+        <!-- Booking Widget Placeholder -->
+        <div id="booking-widget" class="mt-3">
+          <div class="contact-info" style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h3 class="mb-2">Online Booking Coming Soon!</h3>
+            <p class="mb-2">We're integrating with a booking platform to make scheduling even easier. In the meantime, please call us or use one of the recommended booking services below.</p>
+
+            <div style="background: var(--color-primary-light); padding: var(--spacing-xl); border-radius: var(--radius-lg); margin-top: var(--spacing-xl);">
+              <h4 class="mb-1">Recommended Booking Platforms</h4>
+              <p class="text-muted mb-2">We recommend these booking systems for nail salons:</p>
+              <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+                <a href="https://www.fresha.com" target="_blank" rel="noopener" class="btn btn--primary btn--small">Fresha (Free)</a>
+                <a href="https://squareup.com/appointments" target="_blank" rel="noopener" class="btn btn--secondary btn--small">Square Appointments</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Policies Section -->
+    <section class="section">
+      <div class="container">
+        <div class="content">
+          <h2>Booking & Cancellation Policy</h2>
+
+          <h3>Appointments</h3>
+          <p>We recommend booking appointments in advance, especially for weekends and special occasions. A credit card is required to hold appointments for services over $50.</p>
+
+          <h3>Cancellation Policy</h3>
+          <ul>
+            <li><strong>24+ hours notice:</strong> Full refund or free reschedule</li>
+            <li><strong>Less than 24 hours:</strong> 50% cancellation fee</li>
+            <li><strong>No-show:</strong> Full service charge</li>
+          </ul>
+          <p>We understand that emergencies happen. Please contact us as soon as possible if you need to cancel or reschedule.</p>
+
+          <h3>Late Arrivals</h3>
+          <p>If you arrive more than 15 minutes late, we may need to reschedule your appointment or modify your service to accommodate other clients.</p>
+
+          <h3>Gift Cards</h3>
+          <p>Gift cards are available in any amount and make perfect gifts for any occasion. Purchase in-store or call us to order.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <h2 class="cta__title">Questions? We're Here to Help!</h2>
+        <p class="cta__text">Our friendly team is happy to answer any questions about our services, pricing, or availability.</p>
+        <a href="tel:+12125555893" class="btn btn--white">Call (212) 555-LUXE</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg width="160" height="40" viewBox="0 0 280 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="35" fill="#F5E1DA" opacity="0.3"/>
+              <ellipse cx="40" cy="40" rx="10" ry="22" fill="#D4AF37"/>
+              <text x="85" y="48" font-family="'Playfair Display', Georgia, serif" font-size="32" font-weight="700" fill="#2F2F2F">LuxeNails</text>
+              <text x="85" y="62" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#6C757D" letter-spacing="2">BEAUTY STUDIO</text>
+            </svg>
+          </div>
+          <p class="footer__description">Where elegance meets artistry. Experience luxury nail care in the heart of New York City.</p>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Quick Links</h4>
+          <nav class="footer__links">
+            <a href="index.html" class="footer__link">Home</a>
+            <a href="about.html" class="footer__link">About Us</a>
+            <a href="services/manicure.html" class="footer__link">Services</a>
+            <a href="contact.html" class="footer__link">Contact</a>
+          </nav>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Services</h4>
+          <nav class="footer__links">
+            <a href="services/manicure.html" class="footer__link">Manicure</a>
+            <a href="services/pedicure.html" class="footer__link">Pedicure</a>
+            <a href="services/gel-acrylic.html" class="footer__link">Gel & Acrylic</a>
+            <a href="services/nail-art.html" class="footer__link">Nail Art</a>
+          </nav>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Contact</h4>
+          <div class="footer__links">
+            <p class="footer__link">123 Elegant Avenue, Suite 200</p>
+            <p class="footer__link">New York, NY 10001</p>
+            <a href="tel:+12125555893" class="footer__link">(212) 555-LUXE</a>
+            <a href="mailto:hello@luxenails.studio" class="footer__link">hello@luxenails.studio</a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h4 class="footer__title">Follow Us</h4>
+          <div class="footer__social">
+            <a href="https://instagram.com/LuxeNailsStudio" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener">&#128247;</a>
+            <a href="https://facebook.com/LuxeNailsBeautyStudio" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener">&#128101;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 LuxeNails Beauty Studio. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
